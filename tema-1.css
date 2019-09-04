@@ -1,0 +1,144 @@
+body {
+    background-color:aquamarine;
+    color: rgb(54, 51, 51);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+a {
+    text-decoration:blueviolet;
+    color: rgba(6, 6, 80, 0.856);
+}
+    a:hover {
+    color: black;
+    background-color: pink;
+    }
+
+a:visited {
+    color: rgba(105, 88, 202, 0.877);
+}
+
+.container {
+    width: 90%;
+    overflow: auto;
+    margin: 10px auto;
+    background-color: rgb(240, 219, 204);
+    }
+
+/* Debug Aid: Begin */
+.bg-cadet{
+     background-color: cadetblue;
+}
+/* Debug Aid: END */
+
+.logo {
+    text-align: center;
+}
+
+.menu-primer ul {
+    background-color: rgba(231, 117, 117, 0.774);
+    border-radius: 4px;
+    box-shadow: 
+        0 3px 5px -1px rgba(0, 0, 0, 0,2),
+        0 6px 10px 0 rgba(0, 0, 0, 0,14),
+        0 1px 18px 0 rgba(0, 0, 0, 0,12);
+}
+
+.menu-primer li {
+    display: inline-block;
+}
+
+.menu-primer a {
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 6px 10px;
+    letter-spacing: 1px;
+}
+
+.menu-primer a:hover {
+    background-color: #ffffff;
+    color: crimson;
+}
+
+.menu-primer .active {
+    background-color: #ffffff;
+    color: aqua;
+    cursor: default;
+}
+
+.jumbotron {
+    background-color: rgb(245, 184, 177);
+    border: solid 2px salmon;
+    border-radius: 8px;
+}
+
+.jumbotron h1 {
+    margin : 20px;
+    font-size: coral;
+}
+
+.jumbotron h3 {
+    margin: 20pt - 40pt:
+}
+
+.copyright p{
+    font-size: 14px;
+    color: salmon;
+}
+
+/* Footer Box: BEGIN */
+.footer-box {
+    width: 33.3%;
+    float: left;
+}
+
+.footer-box ul{
+    padding: 0;
+}
+
+.footer-box li {
+    padding: 2px 0px;
+    vertical-align: middle;
+}
+
+.footer-box h5 {
+    text-transform: unset;
+    letter-spacing: 1px;
+}
+/* Footer Box: END */
+
+/* Box-BEGIN*/
+.box2-left {
+    width: 50%;
+    float: left;
+}
+
+.box2-right {
+    width: 50%;
+    float: right;
+}
+
+.box-heading {
+    border: solid 1px brown;
+    background-color: salmon;
+    border-radius: 5px 5px 0 0; /* Top-Left Top Right Bottom-Left Bottom Right */
+    padding: 0 10px;
+    margin: 0%;
+    text-transform: uppercase;
+}
+
+.box-heading h3 {
+    margin: 0px;
+}
+
+.box-conten {
+    border: solid 1px brown;
+    border-top: 0;
+    margin: 0;
+    padding: 10px 0px;
+}
+
+.box-fixed {
+    height: 130px;
+}
+
+/* Box-END*/
